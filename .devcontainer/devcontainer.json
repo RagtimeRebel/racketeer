@@ -19,5 +19,9 @@
     "postCreateCommand": "cd /workspaces/racketeer/.devcontainer/ && chmod +x postCreateCommand.sh && ./postCreateCommand.sh && cd /workspaces/racketeer/",
 
     // Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-    "remoteUser": "vscode"
+    "remoteUser": "vscode",
+
+    "extensions": [
+        "evzen-wybitul.magic-racket"
+    ]
 }
