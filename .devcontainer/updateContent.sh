@@ -27,4 +27,4 @@ printf 'no\n2\n/usr/local\n' | sudo ./racket-8.7-x86_64-linux-cs.sh
 # sudo yes Y | apt install --no-install-recommends xvfb
 
 yes Y | raco pkg install racket-langserver
-yes Y | raco pkg install pollen
+# yes Y | raco pkg install pollen
